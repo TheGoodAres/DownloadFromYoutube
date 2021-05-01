@@ -19,7 +19,7 @@ def get_mp3():
         video_clip.close()
 
         os.remove(mp4)
-        shutil.move(mp3, "/Users/r-do./Documents/muzica")  # Replace this with your own output directory
+        shutil.move(mp3, "")  # Replace this with your own output directory
 
 
 get_mp3()
